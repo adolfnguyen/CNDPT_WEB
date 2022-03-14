@@ -42,13 +42,35 @@ body {
      font-family: 'Lato', sans-serif;
      line-height: 1.80857;
      font-weight: normal;
-     background-color: #87850f;
+    
+     background-image: url(./../images/thairice.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     position: relative;
+     
+     
 }
-
+body:after {
+     position: absolute;
+     content: "";
+     left: 0;
+     top: 0;
+     width: 100%;
+     height: 100%;
+     position: fixed;
+     opacity: .8;
+     z-index: -1;
+     background: #cbff3a8f;
+     background: -webkit-linear-gradient(to right, #e3fce9, #006618);
+     
+}
 .main-layout {
      padding: 95px 100px;
 }
-
+.sub-layout {
+     padding: 200px 190px;
+}
 .container {
      max-width: 1170px;
 }
