@@ -10,7 +10,8 @@
 
 @import url('https://fonts.googleapis.com/css?family=Poppins:400');
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Judson:wght@700&family=Open+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
 /*****---------------------------------------- 1) font-family: 'Rajdhani', sans-serif;
  2) font-family: 'Poppins', sans-serif;
  ----------------------------------------*****/
@@ -39,7 +40,7 @@ html {
 body {
      color: #666666;
      font-size: 14px;
-     font-family: 'Lato', sans-serif;
+     font-family: 'Open Sans', sans-serif;
      line-height: 1.80857;
      font-weight: normal;
     
@@ -104,17 +105,17 @@ h6 {
 
 h1 {
      font-size: 24px;
-     font-family: 'Poppins', sans-serif;
+     font-family: 'Playfair Display', serif;
 }
 
 h2 {
      font-size: 22px;
-     font-family: 'Poppins', sans-serif;
+     font-family: 'Playfair Display', serif;
 }
 
 h3 {
      font-size: 18px;
-     font-family: 'Poppins', sans-serif;
+     font-family: 'Playfair Display', serif;
 }
 
 h4 {
@@ -282,7 +283,7 @@ button {
 }
 
 .loader img {
-     width: 280px;
+     width: 1000px;
 }
 
 
@@ -655,6 +656,7 @@ button {
      font-size: 50px;
      line-height: 50px;
      font-weight: 800;
+     font-family: 'Playfair Display', serif;
 }
 
 .cont p {
@@ -685,6 +687,107 @@ button {
      color: #000;
 }
 
+.product-item .down-content h4 {
+     margin-bottom: 20px!important;
+}
+.product-item .down-content h6 {
+     position: absolute!important;
+     top: 30px!important;
+     right: 30px!important;
+}
+.product-item .down-content span {
+     position: absolute!important;
+     right: 30px!important;
+     bottom: 30px!important;
+}
+.product-item .down-content h4 {
+     margin-bottom: 10px;
+}
+.product-item .down-content h6 {
+     position: relative;
+     top: 0;
+     right: 0;
+     margin-bottom: 20px;
+}
+.product-item .down-content span {
+     position: relative;
+     right: 0;
+     bottom: 0;
+}
+.product-item {
+	border: 1px solid #eee;
+	margin-bottom: 30px;
+}
 
+.product-item .down-content {
+	padding: 30px;
+	position: relative;
+}
+
+.product-item img {
+	width: 100%;
+	overflow: hidden;
+}
+
+.product-item .down-content h4 {
+	font-size: 17px;
+	color: #1a6692;
+	margin-bottom: 20px;
+}
+
+.product-item .down-content h6 {
+	position: absolute;
+     margin-top: 30px;
+	top: 30px;
+	right: 30px;
+	font-size: 18px;
+	color: #121212;
+}
+
+.product-item .down-content p {
+	margin-bottom: 20px;
+}
+
+.product-item .down-content ul li {
+	display: inline-block;
+}
+
+.product-item .down-content ul li i {
+	color: #f33f3f;
+	font-size: 14px;
+}
+
+.product-item .down-content span {
+	position: absolute;
+	right: 30px;
+	bottom: 30px;
+	font-size: 13px;
+	color: #f33f3f;
+	font-weight: 500;
+}
+h3.medium {
+     margin-top: 0px;
+     margin-bottom: 0px;
+     font-size: 19px;
+     font-weight: bold;
+ }
+ 
+ h3.large {
+     margin-top: 10px;
+     margin-bottom: 0px;
+     font-size: 30px;
+     font-weight: bold;
+ }
+ 
+ p.style {
+     margin-top: 0px;
+     margin-bottom: 0px;
+ }
+ 
+ hr.style {
+     margin-top: 0px;
+     width: 100px;
+     Border: solid 1px black;
+ }
 /** end footer **/
 
